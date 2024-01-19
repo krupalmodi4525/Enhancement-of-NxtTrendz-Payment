@@ -1,0 +1,118 @@
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-total-value {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-value {
+    font-size: 32px;
+  }
+}
+
+.order-total-label {
+  color: #070b1a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 24px;
+  }
+}
+
+.total-items {
+  color: #01030a;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 16px;
+  }
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+.modal-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#eb4034, #386b44, #ffffff, #dfb4ed);
+}
+
+.payment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.payment-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  align-self: center;
+  margin-right: 4px;
+  width: 100px;
+}
+
+.bill-payment-image {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.radio {
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.order-displaced {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: green;
+}
